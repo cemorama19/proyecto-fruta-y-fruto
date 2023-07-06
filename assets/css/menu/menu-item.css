@@ -2,3 +2,15 @@
     list-style: none;
 }
 
+@media screen and (min-width: 0px){
+    .menu__item{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 384px) {
+    .menu__item{
+        margin-bottom: 0;
+    }
+}

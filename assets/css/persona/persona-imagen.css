@@ -19,3 +19,17 @@
 .persona__imagen--andreia{
     background-image: url(../../img/personas/andrea.jpg);
 }
+
+@media screen and (min-width:0px) {
+    .persona__imagen{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .persona__imagen{
+        height: 300px;
+        width: 300px;
+    }
+}
